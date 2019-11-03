@@ -1,8 +1,8 @@
 ---
 home: true
 heroImage: /images/home_banner.jpg
-heroText: 毫无波动
-tagline: 甚至还有点想笑
+heroText: 橘瑠衣
+tagline: 橘瑠衣的个人博客
 actionText: GitHub →
 actionLink: https://github.com/Lovelesss
 features:
