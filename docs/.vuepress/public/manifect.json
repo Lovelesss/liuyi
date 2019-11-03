@@ -1,0 +1,21 @@
+{
+  "name": "橘瑠衣",
+  "short_name": "橘瑠衣",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#2196f3",
+  "description": "橘瑠衣的个人世界",
+  "theme_color": "blue",
+  "icons": [
+    {
+      "src": "./images/avatar.jpg",
+      "sizes": "144x144",
+      "type": "image/jpg"
+    }
+  ],
+  "related_applications": [
+    {
+      "platform": "web"
+    }
+  ]
+}
