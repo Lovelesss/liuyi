@@ -1,5 +1,5 @@
 # js排序算法
-
+---
 ```
 //排序算法
 const arr = [9, 3, 1, 4, 2, 7, 8, 6, 5];
@@ -126,6 +126,5 @@ const sort = new Sort();
 // console.log(sort.mergeSort(arr));
 console.log('快速排序==========');
 console.log(sort.quickSort(arr));
-
 
 ```

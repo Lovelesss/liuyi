@@ -38,11 +38,11 @@ module.exports = {
                 },
                 {
                     title: 'CSS',
-                    children: [
-                        ['/article/css/css1', 'css文章1'],
-                        ['/article/css/css2', 'css文章2'],
-                        ['/article/css/css3', 'css文章4'],
-                    ]
+                    // children: [
+                    //     ['/article/css/css1', 'css文章1'],
+                    //     ['/article/css/css2', 'css文章2'],
+                    //     ['/article/css/css3', 'css文章4'],
+                    // ]
                 },
                 {
                     title: 'VUE',
