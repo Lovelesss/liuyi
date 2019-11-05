@@ -20,7 +20,7 @@ module.exports = {
             {text: '首页', link: '/'},
             {text: '笔记', link: '/article/'},
             {text: '归档', link: '/archive/'},
-            {text: '图库', link: '/pic/'},
+            {text: '面试题', link: '/interview/'},
             {text: 'GiHhub', link: 'https://github.com/Lovelesss'},
 
         ],
@@ -68,7 +68,20 @@ module.exports = {
                 }
             ],
             '/archive/': [],
-            '/pic/': []
+            '/interview/': [
+                {
+                    title: '计算机网络',
+                    children: [
+                        ['/interview/network/network', '计算机网络']
+                    ]
+                },
+                {
+                    title: 'HTML',
+                    children: [
+                        ['/interview/html/html', 'HTML']
+                    ]
+                }
+            ]
 
         }
     },
