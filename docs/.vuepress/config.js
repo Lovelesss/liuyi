@@ -78,7 +78,13 @@ module.exports = {
                 {
                     title: 'HTML',
                     children: [
-                        ['/interview/html/html', 'HTML']
+                        ['/interview/html/html', 'html']
+                    ]
+                },
+                {
+                    title: 'CSS',
+                    children: [
+                        ['/interview/css/css', 'css']
                     ]
                 }
             ]
