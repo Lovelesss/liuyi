@@ -84,3 +84,30 @@ em：相对于父元素 <br>
 rem: 相对于跟元素  <br>
 vw、vh:相对于视口
 
+### 4.行内元素之间空隙的产生和去除
+之所以有空隙，是因为html文档里边两个span之间有很多空白字符。
+#### 第一种方法：把空格去掉
+```html
+<div class="wrapper">
+  <span class="box">111</span><span class="box">222</span>
+</div>
+```
+#### 第二种方法：把包含两个span的div字体先设置为0(这里的空白字符就没有宽度高度，不占位)，然后再在box里边去设置回去。
+```css
+.wrapper {
+    font-size: 0;
+}
+.span {
+    font-size: 12px;
+    border: 1px solid forestgreen;
+}
+```
+### 5.单行文本溢出省略号
+```
+white-space: nowrap;  /*首先，强制文本不换行*/
+overflow: hidden;  /*其次，隐藏溢出*/
+text-overflow: ellipsis;  /*最后，对溢出的文本用 ellipsis 省略号代替*/
+```
+
+
+

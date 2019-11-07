@@ -84,7 +84,10 @@ module.exports = {
                 {
                     title: 'CSS',
                     children: [
-                        ['/interview/css/css', 'css']
+                        ['/interview/css/css', 'css'],
+                        ['/interview/css/float', '浮动相关'],
+                        ['/interview/css/position', 'position定位相关'],
+                        ['/interview/css/pseudo', '伪元素相关']
                     ]
                 }
             ]
