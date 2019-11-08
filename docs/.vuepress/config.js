@@ -87,9 +87,16 @@ module.exports = {
                         ['/interview/css/css', 'css'],
                         ['/interview/css/float', '浮动相关'],
                         ['/interview/css/position', 'position定位相关'],
-                        ['/interview/css/pseudo', '伪元素相关']
+                        ['/interview/css/pseudo', '伪元素相关'],
+                        ['/interview/css/center', '垂直居中相关']
                     ]
-                }
+                },
+                {
+                    title: 'JavaScript',
+                    children: [
+                        ['/interview/JavaScript/postMessage', 'postMessage']
+                    ]
+                },
             ]
 
         }
