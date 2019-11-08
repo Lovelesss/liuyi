@@ -94,7 +94,8 @@ module.exports = {
                 {
                     title: 'JavaScript',
                     children: [
-                        ['/interview/JavaScript/postMessage', 'postMessage']
+                        ['/interview/JavaScript/postMessage', 'postMessage'],
+                        ['/interview/JavaScript/eventCommission', '事件委托'],
                     ]
                 },
             ]

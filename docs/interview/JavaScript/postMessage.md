@@ -75,4 +75,11 @@ targetWindow就是接收消息的窗口的引用。获得该引用的方法包�
 </body>
 </html>
 ```
+
+#### 发送前：
+![发送前](./imgs/sendFront.png)
+#### 发送后：
+![发送后](./imgs/sendEnd.png)
+
+
 [参考]<https://www.jianshu.com/p/62f1c080748a>
