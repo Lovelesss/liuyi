@@ -3,7 +3,7 @@
 一般使用dispatch派发自定义事件，派发之前需要创建和初始化。<br/>
 即:创建—>初始化—>派发
 
-#### 第一种方法
+#### 第一种方法(不推荐)
 ```
 let div1 = document.getElementById('div1');
 div1.addEventListener('alert', (event) => {
@@ -16,7 +16,7 @@ evt.initEvent('alert', false, false);
 //触发
 div1.dispatchEvent(evt);
 ```
-#### 第二种方法
+#### 第二种方法(推荐)
 ```
 let div1 = document.getElementById('div1');
 let evt2 = new Event('build');

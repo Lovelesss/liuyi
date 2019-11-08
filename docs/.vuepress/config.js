@@ -96,6 +96,8 @@ module.exports = {
                     children: [
                         ['/interview/JavaScript/postMessage', 'postMessage'],
                         ['/interview/JavaScript/eventCommission', '事件委托'],
+                        ['/interview/JavaScript/eventLoop', '事件循环'],
+                        ['/interview/JavaScript/__proto__', '__proto__'],
                     ]
                 },
             ]
