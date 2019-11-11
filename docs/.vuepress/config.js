@@ -102,6 +102,7 @@ module.exports = {
                         ['/interview/JavaScript/new', 'new'],
                         ['/interview/JavaScript/call', 'call、apply、bind'],
                         ['/interview/JavaScript/this', 'this'],
+                        ['/interview/JavaScript/debounce', '函数防抖和节流'],
                     ]
                 },
             ]

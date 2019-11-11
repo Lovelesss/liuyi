@@ -30,3 +30,4 @@ const obj = {
 };
 obj.out()   // 20
 ```
+[参考]<https://github.com/woai3c/Front-end-basic-knowledge/blob/master/JavaSciprt.md#%E8%AF%B7%E7%AE%80%E8%BF%B0JavaScript%E4%B8%AD%E7%9A%84this>
