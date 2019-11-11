@@ -121,6 +121,27 @@ const instance = new Son();
 console.log(instance.getArr());  
 console.log(instance.sayHello())  // instance.sayHello is not a function
 ```
-1. 只能调用Father内部定义的属性和方法，原型(prototype)上定义的无法调用。
+1. 只能调用Father内部定义的属性(实例属性)和方法，原型(prototype)上定义的无法调用。
 2. 破坏了复用性,每个实例都创建了一份副本
 
+#### 4. 组合继承(圆形链继承 + 借用构造函数)
+```javascript
+function Father(name) {
+    this.name = name;
+    this.arr = [1, 2, 3];
+}
+Father.prototype.getName = function () {
+    return this.name
+};
+function Son(name, age) {
+    Father.call(this, name);   //继承实例属性和方法
+    this.age = age
+}
+Son.prototype = new Father();  //继承原型属性和方法
+Son.prototype.getAge = function () {
+    return this.age
+};
+const instance = new Son('小明', 12);
+console.log(instance.getName(),instance.getAge())  // '小明' 12
+```
+弊端:调用两次父类的构造函数，造成消耗
