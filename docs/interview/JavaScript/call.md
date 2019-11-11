@@ -1,4 +1,5 @@
 # call、apply、bind的区别
+---
 ***都是改变this的指向。*** <br>
 call和apply其实是一样的，都是直接生效，区别在于call传参一个一个传，
 apply直接传一个数组。

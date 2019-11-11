@@ -1,4 +1,5 @@
 # new一个对象经历了什么 
+---
 ```javascript
 function Cat(name) {
     this.name = name;
