@@ -145,3 +145,22 @@ const instance = new Son('小明', 12);
 console.log(instance.getName(),instance.getAge())  // '小明' 12
 ```
 弊端:调用两次父类的构造函数，造成消耗
+
+#### 5. 原型式继承
+Object.create:第一个参数是用作新对象原型的对象，第二个参数是一个为新对象定义额外属性的对象，一般来说，第二个参数可以省略
+```javascript
+Object.create(source, {})
+```
+
+#### 6. 寄生式继承
+可以把寄生式继承看做是传进去一个对象，然后对该对象进行一定的加工，也就是增加一些方法来增强该对象，然后再返回一个包含新方法的对象的一个过程
+```javascript
+function createAnother(origin) {
+    const clone = Object(origin);      //  通过调用函数创建一个新对象
+    clone.sayHi = function() {
+        console.log("hi");
+    };
+    return clone;
+}
+```
+弊端:不能实现函数的复用

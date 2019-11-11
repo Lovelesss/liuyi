@@ -98,6 +98,10 @@ module.exports = {
                         ['/interview/JavaScript/eventCommission', '事件委托'],
                         ['/interview/JavaScript/eventLoop', '事件循环'],
                         ['/interview/JavaScript/__proto__', '__proto__'],
+                        ['/interview/JavaScript/ajax', 'ajax'],
+                        ['/interview/JavaScript/new', 'new'],
+                        ['/interview/JavaScript/call', 'call、apply、bind'],
+                        ['/interview/JavaScript/this', 'this'],
                     ]
                 },
             ]
