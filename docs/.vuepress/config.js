@@ -103,6 +103,13 @@ module.exports = {
                         ['/interview/JavaScript/call', 'call、apply、bind'],
                         ['/interview/JavaScript/this', 'this'],
                         ['/interview/JavaScript/debounce', '函数防抖和节流'],
+                        ['/interview/JavaScript/reverse', '数组反转 '],
+                    ]
+                },
+                {
+                    title: '正则表达式',
+                    children: [
+                        ['/interview/reg/reg', '正则日积月累']
                     ]
                 },
             ]
