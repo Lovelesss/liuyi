@@ -33,7 +33,8 @@ module.exports = {
                         ['/article/js/objectCopy', 'js对象深拷贝'],
                         ['/article/js/debounce', 'js防抖'],
                         ['/article/js/dispatch', 'js自定义事件'],
-                        ['/article/js/extend', 'ES6类的继承']
+                        ['/article/js/extend', 'ES6类的继承'],
+                        ['/article/js/audio', 'audio初探']
                     ]
                 },
                 {
