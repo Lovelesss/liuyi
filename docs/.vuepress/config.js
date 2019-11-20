@@ -21,7 +21,7 @@ module.exports = {
             {text: '笔记', link: '/article/'},
             {text: '归档', link: '/archive/'},
             {text: '面试题', link: '/interview/'},
-            {text: 'GiHhub', link: 'https://github.com/Lovelesss'},
+            {text: 'GitHub', link: 'https://github.com/Lovelesss'},
 
         ],
         //侧边栏
@@ -51,7 +51,8 @@ module.exports = {
                         ['/article/vue/activated', 'keep-alive和activated'],
                         ['/article/vue/vuexUpdateData', 'vuex修改数据'],
                         ['/article/vue/alphabetScroll', '字母表下拉关键代码'],
-                        ['/article/vue/lifeCircle', 'Vue生命周期']
+                        ['/article/vue/lifeCircle', 'Vue生命周期'],
+                        ['/article/vue/routerCss', 'Vue Router样式'],
                     ]
                 },
                 {
