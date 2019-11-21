@@ -67,6 +67,12 @@ module.exports = {
                     children: [
                         ['/article/algorithm/sort', 'js排序算法'],
                     ]
+                },
+                {
+                    title: 'MongoDB',
+                    children: [
+                        ['/article/mongodb/restore', '备份和恢复'],
+                    ]
                 }
             ],
             '/archive/': [],
