@@ -34,7 +34,8 @@ module.exports = {
                         ['/article/js/debounce', 'js防抖'],
                         ['/article/js/dispatch', 'js自定义事件'],
                         ['/article/js/extend', 'ES6类的继承'],
-                        ['/article/js/audio', 'audio初探']
+                        ['/article/js/audio', 'audio初探'],
+                        ['/article/js/audio', 'js操作类名'],
                     ]
                 },
                 {
