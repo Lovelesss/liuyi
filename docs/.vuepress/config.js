@@ -35,7 +35,7 @@ module.exports = {
                         ['/article/js/dispatch', 'js自定义事件'],
                         ['/article/js/extend', 'ES6类的继承'],
                         ['/article/js/audio', 'audio初探'],
-                        ['/article/js/audio', 'js操作类名'],
+                        ['/article/js/alterClass', 'js操作类名'],
                     ]
                 },
                 {
