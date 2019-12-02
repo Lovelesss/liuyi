@@ -39,11 +39,15 @@ module.exports = {
                     ]
                 },
                 {
+                    title: 'HTML5',
+                    children: [
+                        ['/article/html5/drag', '拖放'],
+                    ]
+                },
+                {
                     title: 'CSS',
                     children: [
                         ['/article/css/scroll', '滚动条'],
-                        // ['/article/css/css2', 'css文章2'],
-                        // ['/article/css/css3', 'css文章4'],
                     ]
                 },
                 {
