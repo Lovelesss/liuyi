@@ -19,7 +19,7 @@ module.exports = {
             //  '/'指的是docs文件夹路径，默认指向README.md
             {text: '首页', link: '/'},
             {text: '笔记', link: '/article/'},
-            // {text: '归档', link: '/archive/'},
+            {text: '归档', link: '/archive/'},
             {text: '面试题', link: '/interview/'},
             {text: 'GitHub', link: 'https://github.com/Lovelesss'},
 
