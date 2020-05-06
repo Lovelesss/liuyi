@@ -19,7 +19,7 @@ module.exports = {
             //  '/'指的是docs文件夹路径，默认指向README.md
             {text: '首页', link: '/'},
             {text: '笔记', link: '/article/'},
-            {text: '归档', link: '/archive/'},
+            // {text: '归档', link: '/archive/'},
             {text: '面试题', link: '/interview/'},
             {text: 'GitHub', link: 'https://github.com/Lovelesss'},
 
@@ -117,9 +117,9 @@ module.exports = {
                         ['/interview/JavaScript/call', 'call、apply、bind'],
                         ['/interview/JavaScript/this', 'this'],
                         ['/interview/JavaScript/debounce', '函数防抖和节流'],
-                        ['/interview/JavaScript/reverse', '数组反转 '],
+                        ['/interview/JavaScript/reverse', '数组反转'],
                         ['/interview/JavaScript/isEqual', '实现isEqual'],
-                        ['/interview/JavaScript/RAF', 'requestAnimationFrame'],
+                        ['/interview/JavaScript/RAF', 'requestAnimationFrame']
                     ]
                 },
                 {
