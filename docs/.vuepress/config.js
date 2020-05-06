@@ -118,7 +118,8 @@ module.exports = {
                         ['/interview/JavaScript/this', 'this'],
                         ['/interview/JavaScript/debounce', '函数防抖和节流'],
                         ['/interview/JavaScript/reverse', '数组反转 '],
-                        ['/interview/JavaScript/isEqual', '实现isEqual '],
+                        ['/interview/JavaScript/isEqual', '实现isEqual'],
+                        ['/interview/JavaScript/RAF', 'requestAnimationFrame'],
                     ]
                 },
                 {
