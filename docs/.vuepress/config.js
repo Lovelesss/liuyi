@@ -65,6 +65,7 @@ module.exports = {
                     children: [
                         ['/article/git/add', 'git提交代码'],
                         ['/article/git/branch', 'branch相关'],
+                        ['/article/git/learn', '学习git']
                     ]
                 },
                 {
@@ -119,7 +120,9 @@ module.exports = {
                         ['/interview/JavaScript/debounce', '函数防抖和节流'],
                         ['/interview/JavaScript/reverse', '数组反转'],
                         ['/interview/JavaScript/isEqual', '实现isEqual'],
-                        ['/interview/JavaScript/RAF', 'requestAnimationFrame']
+                        ['/interview/JavaScript/RAF', 'requestAnimationFrame'],
+                        ['/interview/JavaScript/imgUpload', '图片上传及预览'],
+                        ['/interview/JavaScript/queryUrl', '获取url参数'],
                     ]
                 },
                 {
